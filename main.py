@@ -52,4 +52,7 @@ print("Músicas medianas de pop:", musica_mediana_pop)
 print("Músicas boas de rock:", musica_boa_rock)
 print("Músicas boas de pop:", musica_boa_pop)
 
-print(sorted([musica_boa_rock, musica_boa_pop])) 
+if musica_boa_rock > musica_boa_pop:
+    print("O gênero rock tem mais músicas boas do que o gênero pop.")   
+else :
+    print("O gênero pop tem mais músicas boas do que o gênero rock.")
