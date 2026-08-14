@@ -30,6 +30,7 @@ musica_boa_pop = len(musica_boa_pop)
 
 classificacao_rock_mediana = list(map(lambda x: x == "Mediana", classificacao_rock))
 print(classificacao_rock_mediana)
+
 if any(classificacao_rock_mediana):
     print("Há músicas medianas em rock.")
 else:
